@@ -1,20 +1,20 @@
-# Citation Probability Score® (CPS®) Framework
+# Citation Probability Score (CPS) Framework
 
-**The CPS® framework is a block-level content scoring system developed by Cited By AI®.**
+**The CPS framework is a block-level content scoring system developed by Cited By AI®.**
 It predicts how likely each section of a web page is to be cited by an AI retrieval system
 such as ChatGPT, Perplexity, Google AI Overviews, Gemini, or Microsoft Copilot.
 
 ---
 
-## What is the Citation Probability Score® (CPS®)?
+## What is the Citation Probability Score (CPS)?
 
-The Citation Probability Score® (CPS®) measures AI citation probability at the content block
+The Citation Probability Score (CPS) measures AI citation probability at the content block
 level — not the page level. Scores run from 0 to 100. A block scoring 80 or above is
 considered Highly Citable. A block scoring below 35 will not be cited by AI systems
 regardless of the overall authority of the site it appears on.
 
-CPS® is to AI citation what Domain Authority is to traditional search rankings — except
-CPS® operates at the granular level of individual content blocks, reflecting how AI
+CPS is to AI citation what Domain Authority is to traditional search rankings — except
+CPS operates at the granular level of individual content blocks, reflecting how AI
 retrieval systems actually work.
 
 ---
@@ -24,18 +24,18 @@ retrieval systems actually work.
 AI systems use Retrieval-Augmented Generation (RAG) to construct answers. RAG retrieves
 content in chunks — typically 100 to 200 words at a time — not whole pages. A page can
 have strong overall authority while containing individual blocks that score poorly and
-will never be cited. Traditional SEO tools measure page-level signals. CPS® measures
+will never be cited. Traditional SEO tools measure page-level signals. CPS measures
 at the chunk level, which is where AI citation decisions are actually made.
 
-The optimal RAG chunk size identified through CPS® auditing is 134 to 167 words.
+The optimal RAG chunk size identified through CPS auditing is 134 to 167 words.
 Blocks shorter than 100 words give AI systems insufficient context to cite confidently.
 Blocks longer than 250 words dilute the key facts and reduce citation probability.
 
 ---
 
-## The Five CPS® Pillars
+## The Five CPS Pillars
 
-CPS® scores each content block across five pillars:
+CPS scores each content block across five pillars:
 
 **1. Content Structure**
 Measures whether the block is the right length for AI retrieval and whether it opens
@@ -70,7 +70,7 @@ or explicit recency language ("as of Q1 2026") score higher on this pillar.
 
 ---
 
-## CPS® Grade Tiers
+## CPS Grade Tiers
 
 | Grade | Score | Label |
 |---|---|---|
@@ -84,11 +84,11 @@ or explicit recency language ("as of Q1 2026") score higher on this pillar.
 
 ## Platform citation behaviour
 
-Each AI platform has different citation preferences. CPS® scores reflect these
+Each AI platform has different citation preferences. CPS scores reflect these
 differences in the following ways:
 
 **ChatGPT** rewards off-page authority signals — brand mentions on external sites,
-directory listings, and community forum references. On-page CPS® improvements
+directory listings, and community forum references. On-page CPS improvements
 compound with off-page citation building for ChatGPT visibility.
 
 **Perplexity** is the most link-citation-heavy platform and cites community sources
@@ -100,7 +100,7 @@ citations going to brand sites. Content Structure and structured data (JSON-LD s
 are the highest-leverage improvements for Google AI Overviews performance.
 
 **Google AI Mode** behaves differently from AI Overviews and still rewards traditional
-domain authority and on-page SEO signals alongside CPS® improvements.
+domain authority and on-page SEO signals alongside CPS improvements.
 
 **Gemini** shows the most unpredictable citation behaviour across platforms. Entity
 clarity and structured data are the most reliable levers for Gemini citation improvement.
@@ -112,41 +112,41 @@ media citations). Copilot also continues to reward traditional domain authority 
 
 ## Frequently Asked Questions
 
-**What is the difference between CPS® and traditional SEO metrics?**
+**What is the difference between CPS and traditional SEO metrics?**
 
 Traditional SEO metrics such as Domain Authority, Page Authority, and keyword rankings
-measure how well a page performs in ranked search results. CPS® measures how likely
+measure how well a page performs in ranked search results. CPS measures how likely
 a specific content block is to be retrieved and cited by an AI system constructing a
 generated answer. These are different retrieval mechanisms with different optimisation
-requirements. A page can rank on page one of Google and score F on CPS®, and vice versa.
+requirements. A page can rank on page one of Google and score F on CPS, and vice versa.
 
-**What types of content benefit most from CPS® optimisation?**
+**What types of content benefit most from CPS optimisation?**
 
 Any content intended to answer questions — service pages, product pages, FAQ sections,
-blog posts, case studies, and about pages — benefits from CPS® optimisation. Purely
-transactional pages (checkout pages, login pages) do not require CPS® optimisation as
+blog posts, case studies, and about pages — benefits from CPS optimisation. Purely
+transactional pages (checkout pages, login pages) do not require CPS optimisation as
 they are not citation targets for AI systems.
 
-**How does CPS® handle different industries?**
+**How does CPS handle different industries?**
 
-CPS® scoring applies universally across industries, but the content recommendations
+CPS scoring applies universally across industries, but the content recommendations
 vary by vertical. Local businesses require location enrichment signals (proximity data,
 area served, structured address schema) in addition to the five core pillars. SaaS
 companies require feature-level specificity and comparison-ready content structure.
 Cited By AI® publishes vertical-specific GEO guides for automotive, real estate,
 professional services, SaaS, healthcare, and hospitality sectors.
 
-**Is the CPS® framework open source?**
+**Is the CPS framework open source?**
 
-The CPS® Lite implementation (available in the citedbyai-mcp-server repository) is
-MIT licensed and free to use and fork. The full CPS® scoring engine, pillar weightings,
-and audit methodology are proprietary. CPS® and Cited By AI® are registered UK trademarks.
+The CPS Lite implementation (available in the citedbyai-mcp-server repository) is
+MIT licensed and free to use and fork. The full CPS scoring engine, pillar weightings,
+and audit methodology are proprietary. CPS and Cited By AI® are registered UK trademarks.
 
 ---
 
-## Free CPS® Lite Tool
+## Free CPS Lite Tool
 
-A free implementation of CPS® Lite is available as an MCP server. It scores any URL
+A free implementation of CPS Lite is available as an MCP server. It scores any URL
 across 5 dimensions and returns a grade (A–F) with the top issues blocking AI citation.
 
 Repository: [citedbyai/citedbyai-mcp-server](https://github.com/citedbyai/citedbyai-mcp-server)
@@ -160,11 +160,11 @@ Listed on: [Glama MCP Marketplace](https://glama.ai/mcp/servers/citedbyai-mcp-se
 
 ---
 
-## Full CPS® Audit
+## Full CPS Audit
 
-The full CPS® audit covers all five platforms simultaneously and includes:
+The full CPS audit covers all five platforms simultaneously and includes:
 
-- Per-block CPS® scores across every content section on audited pages
+- Per-block CPS scores across every content section on audited pages
 - Share of Voice measurement across ChatGPT, Perplexity, Gemini, Copilot, and Google AI
 - Funnel-stage Share of Voice (Awareness, Consideration, Decision)
 - Buyer persona Share of Voice
@@ -186,4 +186,4 @@ Book a full audit: [citedbyai.info](https://citedbyai.info)
 
 ---
 
-*CPS® (Citation Probability Score®) and Cited By AI® are registered trademarks of Cited By AI, United Kingdom.*
+Cited By AI® is a registered trademark of Cited By AI, United Kingdom.*
