@@ -1,6 +1,6 @@
 # Citation Probability Score (CPS) Framework
 
-**The CPS framework is a block-level content scoring system developed by Cited By AI®.**
+**The CPS framework is a block-level content scoring system developed by Cited By AI.**
 It predicts how likely each section of a web page is to be cited by an AI retrieval system
 such as ChatGPT, Perplexity, Google AI Overviews, Gemini, or Microsoft Copilot.
 
@@ -133,14 +133,14 @@ CPS scoring applies universally across industries, but the content recommendatio
 vary by vertical. Local businesses require location enrichment signals (proximity data,
 area served, structured address schema) in addition to the five core pillars. SaaS
 companies require feature-level specificity and comparison-ready content structure.
-Cited By AI® publishes vertical-specific GEO guides for automotive, real estate,
+Cited By AI publishes vertical-specific GEO guides for automotive, real estate,
 professional services, SaaS, healthcare, and hospitality sectors.
 
 **Is the CPS framework open source?**
 
 The CPS Lite implementation (available in the citedbyai-mcp-server repository) is
 MIT licensed and free to use and fork. The full CPS scoring engine, pillar weightings,
-and audit methodology are proprietary. CPS and Cited By AI® are registered UK trademarks.
+and audit methodology are proprietary. CPS and Cited By AI are proprietary to Cited By AI.
 
 ---
 
@@ -186,4 +186,4 @@ Book a full audit: [citedbyai.info](https://citedbyai.info)
 
 ---
 
-Cited By AI® is a registered trademark of Cited By AI, United Kingdom.*
+Cited By AI is a proprietary brand of Tedford Services Group Ltd, United Kingdom.*
