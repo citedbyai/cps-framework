@@ -180,7 +180,6 @@ Book a full audit: [citedbyai.info](https://citedbyai.info)
 ## Links
 
 - 🌐 [citedbyai.info](https://citedbyai.info)
-- 💼 [LinkedIn](https://www.linkedin.com/in/citedbyai/)
 - 🐦 [X / Twitter](https://x.com/citedbyai)
 - 🔌 [Glama MCP Marketplace](https://glama.ai/mcp/servers/citedbyai-mcp-server)
 
